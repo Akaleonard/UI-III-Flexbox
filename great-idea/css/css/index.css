@@ -1,0 +1,213 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+/* Nav bar */
+
+.nav-main {
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+}
+
+.nav-main a {
+    text-decoration: none;
+    color: gray;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-main ul li {
+    text-decoration: none;
+    list-style-type: none;
+    color: gray;
+}
+
+/* Main section */
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+.headline {
+    font-size: 80px;
+    text-align: center;
+}
+
+.headline button {
+    background-color: white;
+    border: 1px solid black;
+    font-size: 30px;
+    color: gray;
+}
+
+#one-head, #two-head, #three-head {
+    display: block;
+}
+
+/* Secondary section */
+
+.container-sectmain {
+    display: flex;
+}
+
+.paragraph-break {
+    display: block;
+}
+
+.img img {
+    width: 100%;
+}
+
+.container-sectfinal {
+    display: flex; 
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+/* Service page header */
+
+.container-service-page {
+    display: flex;
+    justify-content: center;
+}
+
+.container-service-page img {
+    width: 100%;
+    margin: 0% 4%;
+}
+
+.services-service-page {
+    margin: 0% 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+/* Service page section */
+
+.service-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: 0% 4%;
+    /* background-color: lightgray; */
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#one, #two, #three, #four, #five, #six {
+    background-color: lightgray;
+    padding: 2%;
+    border: 1px solid black;
+}
+
+#one, #three, #five {
+    margin-right: 2%;
+}
+
+#one button, #two button, #three button, #four button, #five button, #six button {
+    border-radius: 5px;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#three, #five, #four, #six {
+    margin-top: 2%;
+}
+
+/* Section footer */
+
+.foot-container-service {
+    display: flex;
+    justify-content: center;
+    margin: 0% 4%;
+}
+
+.foot-sectfinal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foot-sectfinal ul {
+    list-style-type: square;
+    display: block;
+    line-height: 40px;
+}
+
+.foot-sectfinal p, .foot-sectfinal h3 {
+    display: block;
+    line-height: 20px;
+}
+
+.container-end {
+    display: flex;
+    justify-content: center;
+}
